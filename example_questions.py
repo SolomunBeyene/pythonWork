@@ -68,7 +68,7 @@ numbers = [10, 33, 4, 20, 100]
 numbers.sort()
 print("Second largest element is:", numbers[-2])
 
-9. Create a 2 value array which counts all the consonants and vowels in a string
+# 9. Create a 2 value array which counts all the consonants and vowels in a string
 def isConsonant(ch):	
 	ch = ch.upper()
 	return not (ch == 'A' or ch == 'E' or
